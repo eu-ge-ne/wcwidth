@@ -10,7 +10,38 @@ to JavaScript.
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=eu-ge-ne_wcwidth&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=eu-ge-ne_wcwidth)
 
 - [@eu-ge-ne/wcwidth](#eu-ge-newcwidth)
+  - [Installation](#installation)
+    - [Deno](#deno)
+    - [Node.js](#nodejs)
+    - [Bun](#bun)
   - [License](#license)
+
+## Installation
+
+### Deno
+
+```bash
+deno add jsr:@eu-ge-ne/wcwidth
+```
+
+### Node.js
+
+```bash
+# pnpm
+pnpm i jsr:@eu-ge-ne/wcwidth
+
+# yarn
+yarn add jsr:@eu-ge-ne/wcwidth
+
+# npm
+npx jsr add @eu-ge-ne/wcwidth
+```
+
+### Bun
+
+```bash
+bunx jsr add @eu-ge-ne/wcwidth
+```
 
 ## License
 
