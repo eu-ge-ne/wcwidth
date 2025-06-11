@@ -3,11 +3,11 @@ function convert(script: string, url: string): string {
     /"""(.*)"""/sg,
     `/*
 This file was downloaded and converted from ${url}.
-$&*/`,
+$1*/`,
   );
 
   script = script.replaceAll(
-    /(VS16_NARROW_TO_WIDE)|(WIDE_EASTASIAN)|(ZERO_WIDTH)/sg,
+    /(VS16_NARROW_TO_WIDE)|(WIDE_EASTASIAN)|(ZERO_WIDTH)/g,
     "export const $&",
   );
 
