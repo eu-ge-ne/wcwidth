@@ -4,6 +4,9 @@ import { wcwidth } from "./wcwidth.ts";
 
 const vs16_narrow_to_wide = VS16_NARROW_TO_WIDE["9.0.0"];
 
+/**
+ * Given a unicode string, return its printable length on a terminal.
+ */
 export function wcswidth(text: string): number {
   const chars = text[Symbol.iterator]();
 
