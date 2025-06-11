@@ -14,6 +14,7 @@ to JavaScript.
     - [Deno](#deno)
     - [Node.js](#nodejs)
     - [Bun](#bun)
+  - [Examples](#examples)
   - [License](#license)
 
 ## Installation
@@ -41,6 +42,17 @@ npx jsr add @eu-ge-ne/wcwidth
 
 ```bash
 bunx jsr add @eu-ge-ne/wcwidth
+```
+
+## Examples
+
+```ts
+import { assertEquals } from "jsr:@std/assert";
+import { wcswidth } from "jsr:@eu-ge-ne/wcwidth";
+
+assertEquals(wcswidth("コンニチハ"), 10);
+
+assertEquals(wcswidth("🤦🏼‍♂"), 2);
 ```
 
 ## License
