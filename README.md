@@ -1,6 +1,6 @@
 # @eu-ge-ne/wcwidth
 
-A port of [github.com/jquast/wcwidth](https://github.com/jquast/wcwidth) library
+Port of [github.com/jquast/wcwidth](https://github.com/jquast/wcwidth) library
 to JavaScript.
 
 [![JSR](https://jsr.io/badges/@eu-ge-ne/wcwidth)](https://jsr.io/@eu-ge-ne/wcwidth)
@@ -9,13 +9,13 @@ to JavaScript.
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=eu-ge-ne_wcwidth&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=eu-ge-ne_wcwidth)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=eu-ge-ne_wcwidth&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=eu-ge-ne_wcwidth)
 
-- [@eu-ge-ne/wcwidth](#eu-ge-newcwidth)
-  - [Installation](#installation)
-    - [Deno](#deno)
-    - [Node.js](#nodejs)
-    - [Bun](#bun)
-  - [Examples](#examples)
-  - [License](#license)
+- [Installation](#installation)
+  - [Deno](#deno)
+  - [Node.js](#nodejs)
+  - [Bun](#bun)
+- [Examples](#examples)
+- [Links](#links)
+- [License](#license)
 
 ## Installation
 
@@ -54,6 +54,10 @@ assertEquals(wcswidth("コンニチハ"), 10);
 
 assertEquals(wcswidth("🤦🏼‍♂"), 2);
 ```
+
+## Links
+
+- <https://wcwidth.readthedocs.org>
 
 ## License
 
