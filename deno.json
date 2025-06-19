@@ -1,6 +1,6 @@
 {
   "name": "@eu-ge-ne/wcwidth",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license": "MIT",
   "exports": "./src/mod.ts",
   "imports": {
@@ -10,7 +10,7 @@
     "exclude": [
       ".github",
       ".vscode",
-      "bench",
+      "bin",
       "test",
       "codecov.yml"
     ]
